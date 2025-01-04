@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(143, 186, 188);
+    height: 100vh;
+    background-image: url(images/pexels-vividcafe-681391.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.card{
+    background-color: transparent;
+    padding : .4rem;
+    width : 50%;
+    margin  : auto;
+    margin-top : 30Px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    backdrop-filter: blur(13px);
+    box-shadow: 0px 1px 4px 1px #fff;
+
+}
+/* the input box css code :  */
+.input-box{
+    padding : 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding : .6rem;
+    width : 70%;
+    position: relative;
+}
+
+
+.input-box img{
+    width : 20px;
+}
+.input-box button{
+    padding : .3rem;
+    border-radius: 50%;
+    border: none;
+    width : 40px;
+    height: 40px;
+    margin-left: 10px ;
+    cursor: pointer;
+}
+.input-box button:hover{
+    background-color: #fbbe7f;
+}
+.input-box input{
+    width : 80%;
+    height : 40px;
+    border-radius: 20px;
+    outline: none;
+    border : none;
+    padding : 1.5rem;
+    font-size: 15px;
+}
+.input-box input:focus ~ .input-box i{
+    color : red!important;
+}
+
+.input-box i{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding : 1rem;
+    color : rgb(0, 0, 0);
+    border-radius: 20px 0px 0px 20px;
+    left: 1px;
+}
+
+/* the middle of the cart css code  :  */
+/* the weather hostest */
+.weather {
+    display:  none;
+    text-align: center;
+    align-items: center;
+    gap : 10px;
+    width : 85%;
+    padding : 1rem;
+
+}
+.errors h3{
+    color : #1b3e64;
+    font-weight: 700;
+}
+.weather img {
+    width : 200px;
+}
+.weather h1, .weather h2{
+    color :white;
+    margin-top : 5px;
+}
+/* the weather details  */
+.col img{
+    width : 60px;
+}
+.col{
+    display: flex;
+}
+.text p{
+    color : #fff ;
+    margin-top : 7px;
+
+}
+.text-2 p{
+    margin-left : 4px;
+}
+.details{
+    /* background-color: #ec1818; */
+    display: flex;
+    justify-content: space-around;
+    width : 100%;
+    margin-top : 30px;
+}
+
